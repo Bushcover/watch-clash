@@ -1,0 +1,17 @@
+{
+  "short_name": "Clash",
+  "name": "Watch/Read Clash",
+  "description": "Cure your backlog choice paralysis.",
+  "icons": [
+    {
+      "src": "icon.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#F7F8F3",
+  "background_color": "#F7F8F3"
+}
