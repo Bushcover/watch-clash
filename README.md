@@ -1,61 +1,53 @@
-# Watch Clash
+# ⚔️ Watch Clash & Read Clash 📖
 
-> **[Play with the Live App Here](https://watch-clash.vercel.app/)**
+> **[🚀 Play with the Live App Here!](https://watch-clash.vercel.app/)**
 
-Watch Clash is an interactive Progressive Web Application (PWA) designed to solve a common modern problem: decision paralysis caused by endless media backlogs. By pitting movies, TV shows, anime, or books head-to-head in a simple bracket-style comparison, Watch Clash helps users quickly find what to watch or read next.
+### *Cure your anime and manga paralysis. Let your list battle to the top.*
 
----
-
-## 🎯 The Problem & The Solution
-
-* **The Problem:** Streaming services and reading lists offer endless choices, leading to choice fatigue. Spending 30 minutes scrolling through options often results in picking nothing.
-* **The Solution:** Watch Clash simplifies decision-making into binary choices (A vs. B). By eliminating items one clash at a time, the winner naturally emerges at the top of your list.
+Watch Clash / Read Clash is an ultra-smooth, premium battle-bracket app built to destroy decision paralysis. Fetch your AniList queue, put your titles in head-to-head combat, and declare the ultimate winner.
 
 ---
 
-## 📱 User Flow & How It Works
+## 🌟 Key Features
 
-1. **Add Items to Your Backlog:** Enter titles into your personal clash list (movies, shows, or books).
-2. **The Clash (Head-to-Head Elimination):** The app presents two items side-by-side. Tap the one you are in the mood for.
-3. **Instant Winner Selection:** The algorithm narrows down your preferences through successive rounds until a clear winner is crowned.
-4. **Install as a Native App:** Tap "Add to Home Screen" on iOS or Android to launch the app full-screen anytime, completely offline-ready.
-
----
-
-## ✨ Key Features
-
-* **Installable PWA Experience:** Native full-screen feel on mobile with zero app store downloads, featuring custom adaptive icon masking.
-* **Bespoke UI Design:** A modern, warm-toned interface designed from scratch—moving away from generic default UI templates.
-* **Fluid Animations:** Smooth card transitions and micro-interactions powered by Framer Motion.
-* **Mobile-First & Responsive:** Optimized for tap targets and single-handed mobile navigation while scaling seamlessly to desktop.
-* **Local Persistence:** Your backlog stays saved locally on your device so you never lose your list.
+* **⚡ Native AniList Integration:** Fetch direct from your AniList account—switch seamlessly between **Planning** or **Currently Watching/Reading** lists.
+* **🎨 Contextual Dynamic Themes:**
+  * **Watch Clash (Anime Mode):** Lush, calming botanical sage and forest green aesthetics.
+  * **Read Clash (Manga Mode):** Warm parchment and vintage manga-paper canvas grid textures.
+* **⚔️ Two High-Stakes Battle Modes:**
+  * **Tournament Bracket:** Classic knockout tournament supporting 4, 8, 16, or 32 combatants.
+  * **Survival Gauntlet:** King of the Hill style—your reigning champion stays in the arena to fight off a continuous stream of challengers.
+* **👁️ Blind Clash Mode:** Disable cover art bias! Hides titles and covers behind mystery entry cards until chosen or inspected.
+* **📱 Progressive Web App (PWA):** Installable on Mobile & Desktop with a native app icon, custom splash screens, and zero browser UI distractions.
+* **ℹ️ Interactive Detail Drawer:** Instant slide-up drawer for synopses, AniList scores, genres, and chapter/episode counts.
+* **🌸 High-Performance Animations:** Powered by **Framer Motion** featuring fluid card slide-ins, spring-physics drawers, and victory botanical bloom confetti.
 
 ---
 
-## 🛠️ Technical Stack
+## 🎮 How to Play
 
-* **Framework:** React 18
-* **Language:** TypeScript
-* **Build Tool:** Vite
-* **Styling:** Tailwind CSS
-* **Animations:** Framer Motion
-* **Hosting & CI/CD:** Vercel
+1. **Enter Username:** Type in your **AniList** handle.
+2. **Choose Media:** Pick **Anime** (Watch Clash) or **Manga** (Read Clash).
+3. **Select Queue:** Battle entries from **Planned** or **Currently Consuming** lists.
+4. **Select Mode:**
+   * **Bracket:** Set your size (4, 8, 16, or 32) and preview the match matrix before kicking off.
+   * **Gauntlet:** Pick your queue depth and run a King of the Hill survival stream.
+5. **Toggle Blind Mode (Optional):** Hide titles and covers to avoid visual biases!
+6. **Battle:** Tap cards to vote on your favorites. Click the `(i)` button on any card to read synopsis details.
+7. **Crown the Champion:** View your winner complete with custom score breakdowns, genre tags, and direct links to AniList.
 
 ---
 
-## 🚀 Local Setup & Installation
+## 🛠️ Tech Stack
 
-If you would like to run this project locally on your machine:
+| Domain | Technology |
+| :--- | :--- |
+| **Framework** | React + TypeScript |
+| **Styling** | Tailwind CSS |
+| **Animations** | Framer Motion |
+| **Data Source** | AniList GraphQL API v2 |
+| **Typography** | `Zen Maru Gothic` & `Plus Jakarta Sans` |
+| **Platform** | PWA (Progressive Web App) |
 
-```bash
-# 1. Clone the repository
-git clone [https://github.com/YOUR_GITHUB_USERNAME/watch-clash.git](https://github.com/YOUR_GITHUB_USERNAME/watch-clash.git)
-
-# 2. Navigate into the directory
-cd watch-clash
-
-# 3. Install dependencies
-npm install
-
-# 4. Start the development server
-npm run dev
+---
+*Built with ❤️ for Anime & Manga fans. Data powered by [AniList](https://anilist.co).*
